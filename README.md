@@ -61,6 +61,9 @@ void main() {
 }
 ```
 
+## Running the Example
+To run the example, create a new Dart or Flutter project, copy the example code into the `main.dart` file, and execute the project using your preferred IDE or command line.
+
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
