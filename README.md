@@ -11,7 +11,7 @@ VideoInfoPlus is a Dart plugin that provides functionality to extract video IDs 
 To use VideoInfoPlus in your Dart or Flutter project, add the following dependency to your `pubspec.yaml` file:
 ```yaml
 dependencies:
-  video_info_plush: ^1.0.0
+  video_info_plus: ^1.0.0
 ```
 
 Then, run `flutter pub get` or `dart pub get` to install the package.
@@ -22,15 +22,15 @@ Then, run `flutter pub get` or `dart pub get` to install the package.
 First, import the package in your Dart file:
 
 ```dart
-import 'package:video_info_plush/video_info_plush.dart';
+import 'package:video_info_plus/video_info_plus.dart';
 ```
 
 ### Extracting Video ID
 To extract the video ID from a YouTube URL, use the `getVideoIdFromUrl` method:
 
 ```dart
-final videoInfoPlush = VideoInfoPlush();
-String videoId = videoInfoPlush.getVideoIdFromUrl(url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+final videoInfoPlus = VideoInfoPlus();
+String videoId = videoInfoPlus.getVideoIdFromUrl(url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 print('Video ID: $videoId');
 ```
 
@@ -38,7 +38,7 @@ print('Video ID: $videoId');
 To get the thumbnail URL for a YouTube video, use the `getThumbnailUrl` method:
 
 ```dart
-String thumbnailUrl = videoInfoPlush.getThumbnailUrl(url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+String thumbnailUrl = videoInfoPlus.getThumbnailUrl(url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 print('Thumbnail URL: $thumbnailUrl');
 ```
 
@@ -46,17 +46,17 @@ print('Thumbnail URL: $thumbnailUrl');
 Here's a complete example of how to use the VideoInfoPlus plugin:
 
 ```dart
-import 'package:video_info_plush/video_info_plush.dart';
+import 'package:video_info_plus/video_info_plus.dart';
 
 void main() {
-  final videoInfoPlush = VideoInfoPlush();
+  final videoInfoPlus = VideoInfoPlus();
   
   String url = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
   
-  String videoId = videoInfoPlush.getVideoIdFromUrl(url: url);
+  String videoId = videoInfoPlus.getVideoIdFromUrl(url: url);
   print('Video ID: $videoId');
   
-  String thumbnailUrl = videoInfoPlush.getThumbnailUrl(url: url);
+  String thumbnailUrl = videoInfoPlus.getThumbnailUrl(url: url);
   print('Thumbnail URL: $thumbnailUrl');
 }
 ```

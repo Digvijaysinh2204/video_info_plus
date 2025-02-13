@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:video_info_plush/video_info_plush.dart';
+import 'package:video_info_plus/video_info_plus.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +44,7 @@ class VideoInfoScreen extends StatefulWidget {
 }
 
 class _VideoInfoScreenState extends State<VideoInfoScreen> {
-  final VideoInfoPlush videoInfo = VideoInfoPlush();
+  final VideoInfoPlus videoInfo = VideoInfoPlus();
   final TextEditingController urlController = TextEditingController();
   String videoId = '';
   String thumbnailUrl = '';

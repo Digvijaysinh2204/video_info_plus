@@ -1,4 +1,4 @@
-class VideoInfoPlush {
+class VideoInfoPlus {
   /// Extracts the video ID from a YouTube URL.
   /// This function is used to retrieve the unique identifier for a video from a given YouTube link.
   String getVideoIdFromUrl({required String url}) {
@@ -23,7 +23,7 @@ class VideoInfoPlush {
   /// Example app usage:
   /// ```dart
   /// void main() {
-  ///   final videoInfo = VideoInfoPlush();
+  ///   final videoInfo = VideoInfoPlus();
   ///   String videoId = videoInfo.getVideoIdFromUrl(url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
   ///   String thumbnailUrl = videoInfo.getThumbnailUrl(url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ");
   ///   print("Video ID: $videoId");
