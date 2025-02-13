@@ -1,4 +1,4 @@
-# VideoInfoPlus
+# Video Info Plus
 
 ## Overview
 VideoInfoPlus is a Dart plugin that provides functionality to extract video IDs from YouTube URLs and retrieve thumbnail images for those videos. This plugin is useful for developers who want to integrate YouTube video information into their applications.
