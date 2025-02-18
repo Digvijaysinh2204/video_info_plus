@@ -1,6 +1,6 @@
 name: video_info_plus
 description: "A Dart plugin that provides functionality to extract video IDs from YouTube URLs and retrieve thumbnail images."
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/Digvijaysinh2204/video_info_plus
 repository: https://github.com/Digvijaysinh2204/video_info_plus
 issue_tracker: https://github.com/Digvijaysinh2204/video_info_plus/issues

@@ -1,5 +1,3 @@
-## 1.0.1
-* Licence Update 
+## 1.0.2
+* Initial Release.
 
-## 1.0.0
-* Initial version.
