@@ -1,7 +1,8 @@
 # Video Info Plus
 
-## Overview
 VideoInfoPlus is a Dart plugin that provides functionality to extract video IDs from YouTube URLs and retrieve thumbnail images for those videos. This plugin is useful for developers who want to integrate YouTube video information into their applications.
+
+[![pub package](https://img.shields.io/pub/v/apple_sign_in_plugin.svg)](https://pub.dev/packages/apple_sign_in_plugin)
 
 ## Features
 - **Extract Video ID**: Easily extract the video ID from a given YouTube URL.
@@ -9,9 +10,10 @@ VideoInfoPlus is a Dart plugin that provides functionality to extract video IDs 
 
 ## Installation
 To use VideoInfoPlus in your Dart or Flutter project, add the following dependency to your `pubspec.yaml` file:
+
 ```yaml
 dependencies:
-  video_info_plus: ^1.0.0
+  video_info_plus: ^1.0.1
 ```
 
 Then, run `flutter pub get` or `dart pub get` to install the package.
